@@ -23,6 +23,4 @@ Once package installed you have to follow the usual steps of any Laravel project
 
 ##AdminLTE
 
-AdminLTE is a free premium admin control panel theme, that is based on bootstrap 3.x and created by Abdullah Almsaeed. See:
-
-https://github.com/almasaeed2010/AdminLTE
+AdminLTE is a free premium admin control panel theme, that is based on bootstrap 3.x and created by Abdullah Almsaeed. See: https://github.com/almasaeed2010/AdminLTE
