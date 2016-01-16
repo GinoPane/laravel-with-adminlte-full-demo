@@ -3,8 +3,8 @@
 #What's included
 
 * [Laravel 5.2.10](http://laravel.com/). Please note, that some core files are modified, that's why framework itself is also included (Authentication and Registration traits modified).
-* [Adminlte-Laravel](https://github.com/acacha/adminlte-laravel). With slight modifications and refactoring.
-* [AdminLte 2.3.1](https://github.com/almasaeed2010/AdminLTE). You can see and AdminLTE theme preview at: http://almsaeedstudio.com/preview/. Based on 2.3.1 version, Bootstrap is additionally updated to 3.3.6 version.
+* [AdminLTE-Laravel](https://github.com/acacha/adminlte-laravel). With slight modifications and refactoring.
+* [AdminLTE 2.3.1](https://github.com/almasaeed2010/AdminLTE). You can see and AdminLTE theme preview at: http://almsaeedstudio.com/preview/. Based on 2.3.1 version, Bootstrap is additionally updated to 3.3.6 version.
 
 ###Installation
 
