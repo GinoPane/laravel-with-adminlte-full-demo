@@ -1,4 +1,4 @@
-#Laravel Skeleton with AdminLTE full demo
+#Laravel Skeleton With AdminLTE Full Demo
 
 #What's included
 
