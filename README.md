@@ -8,11 +8,11 @@
 
 ###Installation
 
-It is a complete skeleton project, so just clone the repository to your oqn place, run composer install, run migrations and that's it!
+It is a complete skeleton project, so just clone the repository to your own place, run ```composer install```, run migrations and that's it!
 
 ##First steps, database creation, migrations and login
 
-Once package installed you have to follow the usual steps of any laravel project to Login to the admin interface:
+Once package installed you have to follow the usual steps of any Laravel project to log in to the admin interface:
 
 - Install required dependencies with ```composer install```;
 - Create a database or use pre-configured sqlite storage;
