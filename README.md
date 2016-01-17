@@ -19,7 +19,7 @@ Once package installed you have to follow the usual steps of any Laravel project
 - Create/check .env file and configure database access (database name, password, etc);
 - Run migrations with command $ php artisan migrate;
 - All resources are pre-built and already included, but you can of course rebuild everything. Just perform required steps for installing [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) and run ```gulp``` within your project root;
-- Register a first user and log in with it.
+- Register the first user and log in with it.
 
 ##AdminLTE
 
