@@ -16,7 +16,7 @@ class UsersTableSeeder extends Seeder
             'first_name'    => 'Admin',
             'last_name'     => 'Admin',
             'email'         => 'admin@laravel.loc',
-            'password'      => bcrypt('admin'),
+            'password'      => Hash::make('admin'),
         ]);
     }
 }
