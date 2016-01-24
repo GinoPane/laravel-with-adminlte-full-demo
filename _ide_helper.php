@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.2.7 on 2016-01-11.
+ * Generated for Laravel 5.2.10 on 2016-01-24.
  *
  * @author Barry vd. Heuvel <barryvdh@gmail.com>
  * @see https://github.com/barryvdh/laravel-ide-helper
@@ -2508,7 +2508,7 @@ namespace {
          *
          * @param \Closure $callback
          * @return mixed 
-         * @throws \Throwable
+         * @throws \Exception|\Throwable
          * @static 
          */
         public static function transaction($callback){
@@ -2671,6 +2671,7 @@ namespace {
          *
          * @param \PDO|null $pdo
          * @return $this 
+         * @throws \RuntimeException
          * @static 
          */
         public static function setPdo($pdo){
@@ -3449,6 +3450,7 @@ namespace {
          * @param \Closure|\Illuminate\Database\Query\Builder|string $query
          * @param string $as
          * @return \Illuminate\Database\Query\Builder|static 
+         * @throws \InvalidArgumentException
          * @static 
          */
         public static function selectSub($query, $as){
@@ -5160,7 +5162,7 @@ namespace {
          * @param array $replace
          * @param string|null $locale
          * @param bool $fallback
-         * @return string 
+         * @return string|array|null 
          * @static 
          */
         public static function get($key, $replace = array(), $locale = null, $fallback = true){
@@ -5188,7 +5190,7 @@ namespace {
          * @param array $parameters
          * @param string $domain
          * @param string $locale
-         * @return string 
+         * @return string|array|null 
          * @static 
          */
         public static function trans($id, $parameters = array(), $domain = 'messages', $locale = null){
@@ -5970,7 +5972,7 @@ namespace {
          * @param mixed $data
          * @param string $queue
          * @return mixed 
-         * @throws \Throwable
+         * @throws \Exception|\Throwable
          * @static 
          */
         public static function push($job, $data = '', $queue = null){
@@ -6803,6 +6805,7 @@ namespace {
          * Get a unique fingerprint for the request / route / IP address.
          *
          * @return string 
+         * @throws \RuntimeException
          * @static 
          */
         public static function fingerprint(){
@@ -8559,6 +8562,18 @@ namespace {
          */
         public static function hasColumns($table, $columns){
             return \Illuminate\Database\Schema\Builder::hasColumns($table, $columns);
+        }
+        
+        /**
+         * Get the data type for the given column name.
+         *
+         * @param string $table
+         * @param string $column
+         * @return string 
+         * @static 
+         */
+        public static function getColumnType($table, $column){
+            return \Illuminate\Database\Schema\Builder::getColumnType($table, $column);
         }
         
         /**
