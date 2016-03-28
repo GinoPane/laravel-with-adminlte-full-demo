@@ -2,7 +2,7 @@
 
 #What's included
 
-* [Laravel 5.2.22](http://laravel.com/). Default auth controllers are modified.
+* [Laravel 5.2.26](http://laravel.com/). Default auth controllers are modified.
 * [AdminLTE-Laravel](https://github.com/acacha/adminlte-laravel). With slight modifications and refactoring.
 * [AdminLTE 2.3.1](https://github.com/almasaeed2010/AdminLTE). You can see and AdminLTE theme preview at: http://almsaeedstudio.com/preview/. Based on 2.3.1 version, Bootstrap is additionally updated to 3.3.6 version.
 
